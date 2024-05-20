@@ -18,20 +18,37 @@
             <li><a href="#informacion-personal">Informacion personal</a></li>
             <li><a href="#educacion">Educación</a></li>
             <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
         </ul>
     </nav>
+    <div class="section">
+        <h2>Intereses</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt egestas fringilla. Suspendisse
+            sit amet mauris in odio vulputate vulputate at et purus. <span style="color: crimson;">Algo
+                importante.</span>
+            Praesent eu risus rhoncus, sagittis tortor at,
+            venenatis turpis. Vestibulum et dolor metus. Mauris tincidunt lectus rhoncus.
+        </p>
+    </div>
     <section id="informacion-personal">
-        <h2>Información personal</h2>
-        <p>
-            Nombre: <span>Juan Pérez</span>
-        </p>
-        <p>
-            Teléfono: <span>+593 99 999 9999</span>
-        </p>
-        <p>
-            Correo electrónico: <span>luenjara@espol.edu.ec</span>
-        </p>
+        <h2>Informacion personal</h2>
+        <table>
+            <tr>
+                <td>Nombre</td>
+                <td>Juan Pérez</td>
+            </tr>
+            <tr>
+                <td>Teléfono</td>
+                <td>+593 99 999 9999</td>
+            </tr>
+            <tr>
+                <td>Correo electrónico</td>
+                <td>luenjara@espol.edu.ec</td>
+            </tr>
+        </table>
+        <a href="https://www.linkedin.com">LinkedIn</a>
     </section>
     <section id="educacion">
         <h2>Educación</h2>
@@ -47,15 +64,22 @@
     </section>
     <section id="experiencia">
         <h2>Experiencia</h2>
-        <p>
-            Cargo: <span>Desarrollador de software</span>
-        </p>
-        <p>
-            Empresa: <span>Mi empresa</span>
-        </p>
-        <p>
-            Fechas: <span>2023 - Presente</span>
-        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Cargo</th>
+                    <th>Empresa</th>
+                    <th>Años de experiencia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Desarrollador de software</td>
+                    <td>Mi empresa</td>
+                    <td>2023 - Presente</td>
+                </tr>
+            </tbody>
+        </table>
         <p>
             Descripción:
         <ul>
@@ -65,15 +89,42 @@
         </ul>
         </p>
     </section>
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <img src="https://placehold.co/400x250/png">
+    </section>
     <section id="habilidades">
         <h2>Habilidades</h2>
-        <ul>
+        <ol>
             <li>Lenguajes de programación: Python, JavaScript, Java</li>
             <li>Bases de datos: MySQL</li>
             <li>Herramientas de desarrollo: Visual Studio Code, Git</li>
-            <li>Idiomas: Inglés</li>
-        </ul>
+            <li>Idiomas
+                <ul>
+                    <li>Inglés</li>
+                    <li>Portugés</li>
+                </ul>
+            </li>
+        </ol>
     </section>
+    <h2>¿Interesado? Contáctame:</h2>
+    <form id="formulario">
+        <label for="nombrescompletos">Nombres completos:</label> <input type="text" id="nombrescompletos"
+            name="nombrescompletos" required="required" /><br>
+        <label for="correoelectronico">Correo electrónico:</label> <input type="email" id="correoelectronico"
+            name="correoelectronico" required="required" /><br>
+        <label>Género:</label><br>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label><br>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="noresponder" name="genero" value="noresponder" checked="checked">
+        <label for="noresponder">Prefiero no responder</label><br>
+    </form>
+    <iframe width="425" height="350"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-79.97591972351076%2C-2.153649841457286%2C-79.95214462280275%2C-2.1409772622812255&amp;layer=mapnik"
+        style="border: 1px solid black"></iframe><br /><small><a
+            href="https://www.openstreetmap.org/#map=16/-2.1473/-79.9640">Ver el mapa más grande</a></small>
     <footer>
         <p>Copyright © 2024 Luis Jara Sánchez</p>
     </footer>

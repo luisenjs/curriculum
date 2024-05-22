@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+
+* {
+    font-family: "Khula";
+}
+
+.titulo {
+    font-family: "Volkhov";
+    font-style: italic;
+}
+
+h1 {
+    font-family: "Fira Sans";
+    font-style: italic;
+}
+
+#interes {
+    color: #5b2b29;
+}
+
+.section {
+    margin: 30px;
+}
+
+.section>#interes {
+    background-color: #ffdbb3;
+}
+
+section {
+    background-color: #ffdbb3;
+    box-sizing: border-box;
+    margin: 6px 20px 1.5px;
+    margin-top: 1.5rem;
+    border: 0.2pt dashed #827d7d;
+    padding: 2% 1.2%;
+    box-shadow:
+        rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

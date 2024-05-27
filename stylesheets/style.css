@@ -42,3 +42,33 @@ section {
         rgba(0, 0, 0, 0.17) 0px 12px 13px,
         rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
+#tabla {
+    display: flex;
+    flex-direction: row;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#tabla.section {
+    flex-basis: 100%;
+}
+
+#tabla #informacion-personal {
+    flex-basis: 53%;
+}
+
+#tabla #educacion{
+    flex-basis: 40%;
+}
+
+#tabla #experiencia{
+    flex-basis: 25%;
+}
+
+#tabla #proyectos{
+    flex-basis: 25%;
+}

@@ -2,137 +2,182 @@
 <html>
 
 <head>
-    <title>Mi curriculum vitae</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta keywords="curriculum">
-    <meta description="Mi curriculum profesional">
-    <meta author="Luis Jara Sánchez">
+    <title>CV de Luis Jara S - Ing. Ciencias Computacionales</title>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Currículum Vitae de Luis Jara S, Ingeniero de Computación con experiencia en desarrollo web.">
+    <meta name="keywords"
+        content="Lus Jara, CV, Currículum Vitae, Ingeniero de Computación, desarrollo web, programador, tecnología, habilidades profesionales">
+    <meta name="author" content="Luis Jara Sánchez">
     <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 
 <body>
-    <h1>Mi curriculum vitae</h1>
-    <nav>
-        <ul>
-            <li><a href="#informacion-personal">Informacion personal</a></li>
-            <li><a href="#educacion">Educación</a></li>
-            <li><a href="#experiencia">Experiencia</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-        </ul>
-    </nav>
-    <div id="tabla">
-        <div class="section">
-            <h2 class="titulo">Intereses</h2>
-            <div id="interes">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt egestas fringilla.
-                    Suspendisse
-                    sit amet mauris in odio vulputate vulputate at et purus. <span style="color: crimson;">Algo
-                        importante.</span>
-                    Praesent eu risus rhoncus, sagittis tortor at,
-                    venenatis turpis. Vestibulum et dolor metus. Mauris tincidunt lectus rhoncus.
-                </p>
-            </div>
-        </div>
-        <section id="informacion-personal">
-            <h2 class="titulo">Informacion personal</h2>
-            <table>
-                <tr>
-                    <td>Nombre</td>
-                    <td>Juan Pérez</td>
-                </tr>
-                <tr>
-                    <td>Teléfono</td>
-                    <td>+593 99 999 9999</td>
-                </tr>
-                <tr>
-                    <td>Correo electrónico</td>
-                    <td>luenjara@espol.edu.ec</td>
-                </tr>
-            </table>
-            <a href="https://www.linkedin.com">LinkedIn</a>
+
+    <div class="wrapper">
+        <header>
+            <h1>Luis Jara Sánchez</h1>
+            <p>Ingeniero en Computación</p>
+            <nav>
+                <ul id="navegacion">
+                    <li><a href="#datos">Datos personales</a></li>
+                    <li><a href="#perfil">Perfil</a></li>
+                    <li><a href="#formacion">Formación</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#idiomas">Idiomas</a></li>
+                    <li><a href="#información">Información adicional</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <section id="datos">
+            <h2>Datos personales</h2>
+            <section id="info">
+                <section id="data">
+                    <p>Nombre</p>
+                    <p>Correo</p>
+                    <p>LinkedIn</p>
+                </section>
+                <section id="valor">
+                    <p>Luis Enrique Jara Sánchez</p>
+                    <p>luenjara@espol.edu.ec</p>
+                    <p><a href="https://www.linkedin.com/in/luis-jara-s%C3%A1nchez-713b4921b/">Luis Jara S</a></p>
+                </section>
+                <section id="foto">
+                    <img src="https://placehold.co/150" alt="Foto de perfil">
+                </section>
+            </section>
         </section>
-        <section id="educacion">
-            <h2 class="titulo">Educación</h2>
-            <p>
-                Grado: <span>Ingeniería en Computación</span>
-            </p>
-            <p>
-                Institución: <span>Escuela Superior Politécnica del Litoral</span>
-            </p>
-            <p>
-                Fechas: <span>2021 - presente</span>
-            </p>
+    
+        <section id="perfil">
+            <h2>Perfil</h2>
+            <section id="info">
+                <h3 id="headdescripcion">Descripción</h3>
+                <p id="descripcion">Soy estudiante de ESPOL cursando la carrera de Computación, actualmente con
+                    conocimientos de programación y desarrollo web.
+                    Tengo conocimientos sobre desarrollo de software y seguridad informática.</p>
+                <h3 id="headintereses">Intereses</h3>
+                <p id="interes">Siempre estoy abieto a aprender nuevas cosas y avanzar con la tecnología, para proponer
+                    nuevas soluciones ya sea por eficiencia o por nuevas utilidades de los softwares.</p>
+            </section>
         </section>
+    
+        <section id="formacion">
+            <h2>Formación</h2>
+            <section id="info">
+                <h3 id="fecha">mayo 2021 - presente</h3>
+                <div id="lugar">
+                    <h3>Universidad</h3>
+                    <p>Escuela Superior Politécnica del Litoral (ESPOL)</p>
+                    <p>Km 30.5 vía Perimetral, 09-01-5863, Guayaquil</p>
+                </div>
+                <h3 id="fecha">abril 2014 - febrero 2019</h3>
+                <div id="lugar">
+                    <h3>Colegio</h3>
+                    <p>Unidad educativa José Domingo de Santistevan</p>
+                    <p>Pedro Menéndez Gilbert, Guayaquil, Guayas</p>
+                </div>
+            </section>
+        </section>
+    
         <section id="experiencia">
-            <h2 class="titulo">Experiencia</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Cargo</th>
-                        <th>Empresa</th>
-                        <th>Años de experiencia</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Desarrollador de software</td>
-                        <td>Mi empresa</td>
-                        <td>2023 - Presente</td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>
-                Descripción:
-            <ul>
-                <li>Desarrollo de aplicaciones web</li>
-                <li>Mantenimiento de sistemas</li>
-                <li>Trabajo en equipo</li>
-            </ul>
-            </p>
+            <h2>Experiencia</h2>
+            <section id="info">
+                <h3 id="fecha">mayo 2024 - presente</h3>
+                <div id="lugar">
+                    <h3>Hangaroa S.A.</h3>
+                    <p>Urdesa central, Víctor Emilio Estrada S:138</p>
+                    <p>Por materia de Ingeniería de Software I, estoy colaborando con ellos
+                        en la elaboración de un aplicativo móvil y administración web para el control electoral.</p>
+                </div>
+            </section>
         </section>
+    
         <section id="proyectos">
-            <h2 class="titulo">Proyectos</h2>
-            <img src="https://placehold.co/400x250/png" alt="Proyecto de tal">
+            <h2>Proyectos</h2>
+            <section id="info">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/uL08feCEnLE?si=j1LGb9efYsKBOadI"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
         </section>
+    
         <section id="habilidades">
-            <h2 class="titulo">Habilidades</h2>
-            <ol>
-                <li>Lenguajes de programación: Python, JavaScript, Java</li>
-                <li>Bases de datos: MySQL</li>
-                <li>Herramientas de desarrollo: Visual Studio Code, Git</li>
-                <li>Idiomas
-                    <ul>
-                        <li>Inglés</li>
-                        <li>Portugés</li>
-                    </ul>
-                </li>
-            </ol>
+            <h2>Habilidades</h2>
+            <section id="info">
+                <div class="skill">
+                    <p>Desarrollo Web</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Bases de Datos</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Comunicación</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 57%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Lenguajes de Programación</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </section>
         </section>
+    
+        <section id="idiomas">
+            <h2>Idiomas</h2>
+            <section id="info">
+                <ul>
+                    <li>Inglés alto (B2)</li>
+                    <li>Portugués básico</li>
+                </ul>
+            </section>
+        </section>
+    
+        <section id="información">
+            <h2>Información adicional</h2>
+            <section id="info">
+                <h3>Formulario de Contacto</h3>
+                <form>
+                    <label for="nombres">Nombre y apellidos:</label><br>
+                    <input type="nombres" id="nombres" name="nombres" required><br><br>
+
+                    <label for="email">Correo Electrónico:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+    
+                    <label for="telefono">Teléfono:</label><br>
+                    <input type="tel" id="telefono" name="telefono" required><br><br>
+    
+                    <label for="motivo">Motivo de Interés:</label><br>
+                    <textarea id="motivo" name="motivo" rows="4" required></textarea><br><br>
+    
+                    <input type="submit" value="Enviar">
+                </form>
+                <br>
+                <h3>Ubicación para reuniones presenciales</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d498.3767880285937!2d-79.96517177671194!3d-2.1482101336396835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7301c921c4c1%3A0xd72068e1ca0ea51d!2sMonumento%20ESPOL!5e0!3m2!1ses-419!2sec!4v1717220022622!5m2!1ses-419!2sec"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </section>
+    
+        <footer>
+            <p>Copyright © 2024 Luis Jara Sánchez</p>
+        </footer>
     </div>
-    <h2 class="titulo">¿Interesado? Contáctame:</h2>
-    <form id="formulario">
-        <label for="nombrescompletos">Nombres completos:</label> <input type="text" id="nombrescompletos"
-            name="nombrescompletos" required="required" /><br>
-        <label for="correoelectronico">Correo electrónico:</label> <input type="email" id="correoelectronico"
-            name="correoelectronico" required="required" /><br>
-        <label>Género:</label><br>
-        <input type="radio" id="femenino" name="genero" value="femenino">
-        <label for="femenino">Femenino</label><br>
-        <input type="radio" id="masculino" name="genero" value="masculino">
-        <label for="masculino">Masculino</label><br>
-        <input type="radio" id="noresponder" name="genero" value="noresponder" checked="checked">
-        <label for="noresponder">Prefiero no responder</label><br>
-    </form>
-    <iframe width="425" height="350"
-        src="https://www.openstreetmap.org/export/embed.html?bbox=-79.97591972351076%2C-2.153649841457286%2C-79.95214462280275%2C-2.1409772622812255&amp;layer=mapnik"
-        style="border: 1px solid black"></iframe><br /><small><a
-            href="https://www.openstreetmap.org/#map=16/-2.1473/-79.9640">Ver el mapa más grande</a></small>
-    <footer>
-        <p>Copyright © 2024 Luis Jara Sánchez</p>
-    </footer>
+
 </body>
 
 </html>

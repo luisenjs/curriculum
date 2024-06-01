@@ -6,69 +6,171 @@
     font-family: "Khula";
 }
 
-.titulo {
-    font-family: "Volkhov";
-    font-style: italic;
-}
-
 h1 {
     font-family: "Fira Sans";
     font-style: italic;
+    color: #0c2329;
 }
 
-#interes {
-    color: #5b2b29;
+h2 {
+    font-family: "Volkhov";
+    font-style: italic;
+    color: #093a34;
 }
 
-.section {
-    margin: 30px;
+h3 {
+    font-family: "Volkhov";
+    color: #09c184;
 }
 
-.section>#interes {
-    background-color: #ffdbb3;
+#info {
+    display: block;
+    border-top: 1px solid #0a8967;
 }
 
-section {
-    background-color: #ffdbb3;
-    box-sizing: border-box;
-    margin: 6px 20px 1.5px;
-    margin-top: 1.5rem;
-    border: 0.2pt dashed #827d7d;
-    padding: 2% 1.2%;
-    box-shadow:
-        rgba(0, 0, 0, 0.25) 0px 54px 55px,
-        rgba(0, 0, 0, 0.12) 0px -12px 30px,
-        rgba(0, 0, 0, 0.12) 0px 4px 6px,
-        rgba(0, 0, 0, 0.17) 0px 12px 13px,
-        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+#navegacion {
+    display: grid;
+    row-gap: 1%;
+    column-gap: 7%;
+    grid-template-columns: repeat(4, 1fr);
 }
 
-#tabla {
+#datos #info {
     display: flex;
     flex-direction: row;
-    row-gap: 0.5rem;
-    column-gap: 0.5rem;
+    column-gap: 1%;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#datos #info #clave {
+    flex-basis: 24%;
+}
+
+#datos #info #valor {
+    flex-basis: 50%;
+}
+
+#datos #info #foto {
+    flex-basis: 24%;
+    display: flex;
     justify-content: center;
-    align-items: stretch;
+    padding: 1% 0%;
 }
 
-#tabla.section {
-    flex-basis: 100%;
+#perfil #info {
+    display: grid;
+    row-gap: 1%;
+    column-gap: 7%;
+    grid-template-columns: 1fr 1fr;
 }
 
-#tabla #informacion-personal {
-    flex-basis: 53%;
+#perfil #info #headdescripcion {
+    grid-column: 1 / 2;
+    grid-row: 1 / 1;
+    display: flex;
+    justify-content: center;
 }
 
-#tabla #educacion{
-    flex-basis: 40%;
+#perfil #info #descripcion {
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+    margin: 0%;
 }
 
-#tabla #experiencia{
-    flex-basis: 25%;
+#perfil #info #headintereses {
+    grid-column: 2 / 3;
+    grid-row: 1 / 1;
+    display: flex;
+    justify-content: center;
 }
 
-#tabla #proyectos{
-    flex-basis: 25%;
+#perfil #info #interes {
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+    margin: 0%;
+}
+
+#formacion #info, #experiencia #info{
+    display: grid;
+    padding: 1%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#info #fecha {
+    grid-column: 1 / 2;
+}
+
+#info #lugar {
+    grid-column: 2 / 4;
+}
+
+.skill-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.skill-level {
+    height: 20px;
+    background-color: #06bb79;
+    border-radius: 5px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #effffb;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0px;
+}
+
+input[type="nombres"], input[type="email"], input[type="tel"], textarea {
+    width: 93%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #07f9a2;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+iframe {
+    margin: 5px 25%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    height: 450px;
+    border: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+.wrapper {
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0% 2%;
+    background-color: white;
+    border: 1px ridge black;
+    border-radius: 8px;
+}
+
+body {
+    background-color: #f1fff7;
 }
